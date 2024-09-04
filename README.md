@@ -107,7 +107,7 @@ aws iam list-users
 **Note:** The above command gives `read and write permissions to the owner,` `read and write permissions to the group,` and `read and write permissions to others.`
 
 ---------------------------------------------------------------------
-### Task-3: Use Terraform to launch two servers.
+### Task-3: Use Terraform to launch jenkins server
 Create the Terraform configuration and variables files as described.
 * We need to create one jenkins servers
 * For **Git Operations** we will use the same **Anchor EC2** from where we are operating now 
