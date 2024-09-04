@@ -151,7 +151,7 @@ resource "aws_instance" "my-machine" {
   vpc_security_group_ids = [var.sg_id]
   instance_type          = var.ins_type
   tags = {
-    Name = jenkins-server
+    Name = "jenkins-server"
   }
 
   provisioner "local-exec" {
